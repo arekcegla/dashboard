@@ -6,7 +6,7 @@ st.set_page_config(page_title="Production Dashboard", layout="wide")
 st.sidebar.title("Navigation")
 section = st.sidebar.radio("Go to section:", ["Overview", "Production KPIs", "Quality Metrics", "Maintenance"])
 
-st.title("📊 Production Dashboard")
+st.title("📊 UTM Production Dashboard")
 
 def show_section(title, iframe_url):
     with st.expander(title, expanded=False):
