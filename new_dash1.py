@@ -6,7 +6,7 @@ import numpy as np
 
 st.set_page_config(layout="wide", page_title="UTM Production Dashboard Basia, das ist nurTest")
 
-col_logo, col_title = st.columns([1, 5])
+col_logo, col_title = st.columns([1, 8])
 with col_logo:
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mueller_logo.svg/2560px-Mueller_logo.svg.png", width=100)
 with col_title:
@@ -64,7 +64,7 @@ with col4:
         st.pyplot(fig)
 
 with col5:
-    st.markdown("### 2.2: FIELD NO. 5")
+    st.markdown("### 2.2: Daten, z. B. CILT oder andere")
     with st.container(border=True):
         categories = ['Shift A', 'Shift B', 'Shift C']
         values = [80, 65, 90]
