@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-st.set_page_config(layout="wide", page_title="UTM Production Dashboard Basia, das ist nur Test")
+st.set_page_config(layout="wide", page_title="UTM Production Dashboard Basia, das ist nurTest")
 
 col_logo, col_title = st.columns([1, 5])
 with col_logo:
@@ -54,7 +54,7 @@ with col3:
 col4, col5, col6 = st.columns(3)
 
 with col4:
-    st.markdown("### 2.1: FIELD NO. 4")
+    st.markdown("### 2.1: SAC Data")
     with st.container(border=True):
         x = np.arange(10)
         y = np.random.randint(50, 100, size=10)
@@ -74,7 +74,7 @@ with col5:
         st.pyplot(fig)
 
 with col6:
-    st.markdown("### 2.3: FIELD NO. 6")
+    st.markdown("### 2.3: Share drive data")
     with st.container(border=True):
         table_data = {
             "Machine": ["Line A", "Line B", "Line C", "Line D"],
