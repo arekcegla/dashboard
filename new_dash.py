@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-st.set_page_config(layout="wide", page_title="UTM Production Dashboard")
+st.set_page_config(layout="wide", page_title="UTM Production Dashboard Basia, das ist nur Test")
 
 col_logo, col_title = st.columns([1, 5])
 with col_logo:
